@@ -1,0 +1,22 @@
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.mainPage {
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*bottom: 0;*/
+    /*width: 100%;*/
+    /*max-width: 500px;*/
+    /*padding: 20px;*/
+    margin: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

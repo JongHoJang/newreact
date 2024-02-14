@@ -1,5 +1,7 @@
-import React, {useEffect} from "react";
-import {useState} from "react";
+import React, {useEffect, useState} from "react";
+import "../index.css"
+import SignUp from "./SignUp";
+import {useNavigate} from 'react-router-dom'
 
 const User = {
     pw: 'qwer1234!@'
@@ -9,7 +11,12 @@ const Login = () => {
     const [pw, setPw] = useState('')
     const [pwValid, setPwValid] = useState(false);
     const [notAllow, setNotAllow] = useState(true)
-
+    const navigate = useNavigate()
+    const [signUp, setSignUp] = useState(false);
+    const onClickPopupBtn = () => {
+        setSignUp(true)
+        navigate('/register')
+    }
 
     const onChangeId = (e:React.ChangeEvent<HTMLInputElement>) => {
         setId(e.target.value)
@@ -65,6 +72,7 @@ const Login = () => {
                 <div className='loginBtn'>
                     <button onClick={onClickConfirmBtn} disabled={notAllow} className='bottomBtn'>로그인</button>
                 </div>
+                <button className='signUpBtn' onClick={onClickPopupBtn}>회원가입</button>
             </div>
         </>
     )

@@ -1,0 +1,10 @@
+[
+{"type":"header","version":"5.1.1deb5ubuntu1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"login"},
+{"type":"table","name":"login","database":"login","data":
+[
+{"id":"jang","password":"1234","name":"jangjongho"},
+{"id":"sin","password":"2345","name":"sinheisong"}
+]
+}
+]

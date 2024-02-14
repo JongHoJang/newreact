@@ -12,6 +12,8 @@ code {
     monospace;
 }
 
+
+
 .page {
   position: absolute;
   top: 0;
@@ -84,16 +86,48 @@ code {
 .bottomBtn {
   width: 100%;
   height: 50px;
-  background-color: mediumpurple;
+  background-color: #70bbdb;
   color: white;
   border: none;
   border-radius: 64px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   cursor: pointer;
 }
 
 .bottomBtn:disabled {
   background-color: #dadada;
   color: white;
+}
+
+.signUpBtn {
+  color: #3d3d3d;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+/*회원가입 페이지*/
+.signUpPage {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: rgba(49,49,49,0.8);
+
+  /*중앙 정렬*/
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  background-color: #f7f7f7;
+
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
 }
