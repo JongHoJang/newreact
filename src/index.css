@@ -50,7 +50,8 @@ code {
   display: flex;
   border-radius: 8px;
   padding: 16px;
-  margin-top: 8px;
+  margin-top: 6px;
+  margin-bottom: 16px;
   background-color: white;
   border: 1px solid #e2e0e0;
 }
@@ -92,6 +93,7 @@ code {
   border-radius: 64px;
   font-weight: 700;
   margin-bottom: 10px;
+  margin-top: 10px;
   cursor: pointer;
 }
 
@@ -100,7 +102,7 @@ code {
   color: white;
 }
 
-.signUpBtn {
+.registerBtn {
   color: #3d3d3d;
   margin-bottom: 20px;
   font-weight: 500;
@@ -108,10 +110,11 @@ code {
   cursor: pointer;
   border: none;
   background-color: transparent;
+  text-align: center;
 }
 
 /*회원가입 페이지*/
-.signUpPage {
+.registerPage {
   position: absolute;
   top: 0;
   bottom: 0;

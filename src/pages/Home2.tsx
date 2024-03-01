@@ -1,13 +1,13 @@
 import React, {useEffect, useState} from "react";
 import AList from './AList'
 import BList from "./BList";
-import TotallList from "./TotallList";
+import TotallList from "./Addpost";
 import {Route, Routes, Link, useNavigate} from 'react-router-dom'
 import Header from "./Header";
-import './MainPage.css';
+import './Boardstyle.css';
 import axios from "axios";
 
-const MainPage = () => {
+const Home = () => {
 
     const navigate = useNavigate();
 
@@ -43,4 +43,4 @@ const MainPage = () => {
     )
 };
 
-export default MainPage;
+export default Home;

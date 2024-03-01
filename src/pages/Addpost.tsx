@@ -1,14 +1,14 @@
 import React, {useEffect, useState} from "react";
 
 
-const ToTallList = () => {
+const Addpost = () => {
 
 
     return (
         <>
             <div className="pages">
                 <div className='titleWrap'>
-                    ToTal list 입니다
+                    Total list 입니다
                 </div>
                 <nav className="navWrap">
 
@@ -18,4 +18,4 @@ const ToTallList = () => {
     )
 };
 
-export default ToTallList;
+export default Addpost;
